@@ -3,6 +3,15 @@ export {
     defineParameterExpression,
 } from './parser/expression/custom'
 export type { Currency } from './parser/expression/regexes'
+export {
+    type BackgroundType,
+    type FeatureType,
+    type RuleType,
+    type ScenarioOutlineType,
+    type ScenarioType,
+    type StepType,
+    serializeFeature,
+} from './parser/models/types'
 export { VitestCucumberPlugin } from './plugin/index'
 export {
     defineSteps,
